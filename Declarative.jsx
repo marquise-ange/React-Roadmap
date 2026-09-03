@@ -20,3 +20,14 @@ appending an h1 to our div#root (without using innerHTML).
     
 */
 
+//this is imperative coding
+const h1 = document.createElement("h1");
+
+h1.textContent = "Hello World";
+
+h1.className = "header";
+
+const root = document.getElementById("root");
+
+root.appendChild(h1);
+
